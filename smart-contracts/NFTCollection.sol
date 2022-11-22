@@ -17,6 +17,6 @@ contract Creatives is ERC721Base {
     // function to receive Ether
     receive() external payable {}
 
-    // Fallback function is called when the msg.data is not empty
+    // Fallback function is called when the msg.data is not empty.
     fallback() external payable {}
 }
